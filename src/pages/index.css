@@ -31,6 +31,7 @@
 /* publications */
 @import url(../blocks/publications/publications.css);
 @import url(../blocks/publication/publication.css);
+@import url(../blocks/share-popup/share-popup.css);
 
 /* team */
 @import url(../blocks/team/team.css);
