@@ -6,4 +6,6 @@
   -moz-text-size-adjust: 100%;
   margin: 0;
   padding: 0;
+  max-width: 1440px;
+  min-width: 320px;
 }
