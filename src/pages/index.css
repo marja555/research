@@ -1,0 +1,41 @@
+/* normalize */
+@import url(../vendor/normalize.css);
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400&display=swap');
+
+/* body */
+@import url(../blocks/page/page.css);
+
+/* navbar */
+@import url(../blocks/navbar/navbar.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+
+/* tech */
+@import url(../blocks/tech/tech.css);
+
+/* about-us */
+@import url(../blocks/about-us/about-us.css);
+
+/* lab */
+@import url(../blocks/lab/lab.css);
+
+/* projects */
+@import url(../blocks/projects/projects.css);
+
+/* education */
+@import url(../blocks/education/education.css);
+
+/* publications */
+@import url(../blocks/publications/publications.css);
+
+/* team */
+@import url(../blocks/team/team.css);
+
+/* form */
+@import url(../blocks/form/form.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
