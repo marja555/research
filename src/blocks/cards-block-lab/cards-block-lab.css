@@ -5,4 +5,5 @@
   margin: 20px auto 0;
   padding-bottom: 40px;
   gap: 8px;
+  width: max-content;
 }

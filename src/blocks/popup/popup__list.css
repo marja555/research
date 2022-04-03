@@ -1,9 +1,9 @@
-.lab__text {
+.popup__list {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.33;
-  padding: 0;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-left: 20px;
+  padding: 0;
 }

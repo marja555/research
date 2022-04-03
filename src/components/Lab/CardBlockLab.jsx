@@ -1,9 +1,11 @@
 import React from "react";
 
 function CardBlockLab(props) {
-  console.log(props)
+  const handleClick = () => {
+    props.onCardClick();
+  }
     return (
-      <div className="card-block-lab">
+      <div className="card-block-lab" onClick={handleClick}>
         <div className="card-block-lab__content">
           <h3 className="card-block-lab__title">{props.card.title}</h3>
           <div className="card-block-lab__icon-circle">

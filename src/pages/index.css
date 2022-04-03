@@ -36,6 +36,18 @@
 @import url(../blocks/card-block-lab/card-block-lab__text.css);
 @import url(../blocks/card-block-lab/card-block-lab__title.css);
 
+/* popup */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/popup__container.css);
+@import url(../blocks/popup/popup__image.css);
+@import url(../blocks/popup/popup__text.css);
+@import url(../blocks/popup/popup__title.css);
+@import url(../blocks/popup/popup__close-btn.css);
+@import url(../blocks/popup/popup__wrapper.css);
+@import url(../blocks/popup/popup__list.css);
+@import url(../blocks/popup/popup_type_open.css);
+@import url(../blocks/popup/popup__overlay.css);
+
 /* projects */
 @import url(../blocks/projects/projects.css);
 
