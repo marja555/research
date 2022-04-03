@@ -1,4 +1,5 @@
 import React from 'react';
+import OurProjects from "./OurProjects/OurProjects";
 
 function Main(props) {
     return (
@@ -8,7 +9,9 @@ function Main(props) {
         <section className="tech"></section>
         <article className="about-us"></article>
         <section className="lab"></section>
-        <section className="projects"></section>
+        <section className="projects">
+            <OurProjects/>
+        </section>
         <section className="education"></section>
         <section className="publications"></section>
         <section className="team"></section>
