@@ -1,4 +1,5 @@
 import React from 'react';
+import  Lab  from './Lab';
 
 function Main(props) {
     return (
@@ -7,7 +8,7 @@ function Main(props) {
         <header className="header"></header>
         <section className="tech"></section>
         <article className="about-us"></article>
-        <section className="lab"></section>
+        <Lab />
         <section className="projects"></section>
         <section className="education"></section>
         <section className="publications"></section>

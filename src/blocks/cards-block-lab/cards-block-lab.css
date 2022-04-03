@@ -1,0 +1,8 @@
+.cards-block-lab {
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  grid-template-rows: 1fr 1fr;
+  margin: 20px auto 0;
+  padding-bottom: 40px;
+  gap: 8px;
+}

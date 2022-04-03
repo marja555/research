@@ -1,0 +1,9 @@
+.lab__grid {
+    max-width: calc(100% - 32px);
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    margin: 0 auto;
+
+}
