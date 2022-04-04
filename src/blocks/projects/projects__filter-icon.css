@@ -1,0 +1,8 @@
+.projects__filter-icon {
+  display: block;
+  border: none;
+  width: 12px;
+  height: 6px;
+  background: url("./Path 3.svg") center no-repeat;
+  background-size: cover;
+}

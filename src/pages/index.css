@@ -24,6 +24,14 @@
 
 /* projects */
 @import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/projects__title.css);
+@import url(../blocks/projects/projects__filter.css);
+@import url(../blocks/projects/projects__filter-icon.css);
+@import url(../blocks/projects/projects__filter-item.css);
+@import url(../blocks/projects/projects-container.css);
+@import url(../blocks/projects/projects__card.css);
+@import url(../blocks/projects/projects__logo.css);
+@import url(../blocks/projects/projects__card-text.css);
 
 /* education */
 @import url(../blocks/education/education.css);

@@ -1,0 +1,22 @@
+.projects__card{
+  background-color: #009FAC;
+  width: 140px;
+  height: 130px;
+  margin: 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+
+}
+
+.projects__card_opened {
+  background-color: #E0F0FF;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  z-index: 2;
+  width: 288px;
+  background-image:url("./Factory.svg");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
