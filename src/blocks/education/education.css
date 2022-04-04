@@ -1,0 +1,114 @@
+.education {
+  background-color: #009fac;
+  margin: 0;
+  padding: 0;
+  max-height: 886px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.education__title {
+  margin: 40px auto 20px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.education__text {
+  width: 288px;
+  height: 160px;
+  left: 0px;
+  top: 42px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0 auto;
+}
+
+.education__counteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  max-width: 260px;
+  height: 500px;
+  background: #ffffff;
+  border-radius: 5px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.education__image {
+  width: 256px;
+  height: 160px;
+  left: 16px;
+  top: 16px;
+  border-radius: 5px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 6px auto;
+}
+
+.education__list {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.0588372px;
+  color: #000d26;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 6px auto;
+  max-width: 256px;
+  padding-bottom: 10px;
+}
+
+.education__list-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.0588372px;
+  color: #000d26;
+  margin: 0 -10px;
+  padding: 0 0 0 30px;
+}
+
+.education__more {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.0588372px;
+  color: #000d26;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 15px 3px;
+}
