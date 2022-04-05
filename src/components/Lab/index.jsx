@@ -6,9 +6,12 @@ function Lab(props) {
     
     return (
         <section className="lab">
+          <h2 className="lab__title">INDUSTRIAL AI RESEARCH LAB</h2>
+          
           <div className="lab__grid">
-            <h2 className="lab__title">INDUSTRIAL AI RESEARCH LAB</h2>
-            <div className="lab__image"></div>
+            <div className="lab__icon-molecule"></div>
+            <div className="lab__image-man"></div>
+            <div className="lab__image-men"></div>
             <p className="lab__text">
               Центр национальной технологической инициативы (НТИ), получивший государственную поддержку 
               по направлению «Технологии машинного обучения и когнитивные технологии». 

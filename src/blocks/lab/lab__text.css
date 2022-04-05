@@ -7,3 +7,26 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .lab__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.1px;
+  }
+
+  .lab__text:first-of-type {
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .lab__text {
+    grid-column: 2/3;
+    width: 540px;
+    padding-right: 18px;
+    font-size: 18px;
+    line-height: 1.67;
+  }
+}

@@ -22,9 +22,11 @@
 /* lab */
 @import url(../blocks/lab/lab.css);
 @import url(../blocks/lab/lab__grid.css);
-@import url(../blocks/lab/lab__image.css);
+@import url(../blocks/lab/lab__image-man.css);
+@import url(../blocks/lab/lab__image-men.css);
 @import url(../blocks/lab/lab__text.css);
 @import url(../blocks/lab/lab__title.css);
+@import url(../blocks/lab/lab__icon-molecule.css);
 
 /* cards, card */
 @import url(../blocks/cards-block-lab/cards-block-lab.css);
