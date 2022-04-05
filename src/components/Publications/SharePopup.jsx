@@ -1,4 +1,5 @@
-export const SharePopup = ({ isOpen }) => {
+export const SharePopup = ({ isOpen, fullLink }) => {
+  // TODO Найти обработчики для расшаривания по всем соцсетям ниже и повесить их на кнопки
   return (
     <div
       className={

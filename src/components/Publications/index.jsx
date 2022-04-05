@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Publication } from "./Publication";
 
 export const Publications = () => {
