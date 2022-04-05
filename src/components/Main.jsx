@@ -1,10 +1,13 @@
 import React from 'react';
+import Header from './Header';
 
 function Main(props) {
     return (
       <>
         <nav className="navbar"></nav>
-        <header className="header"></header>
+        <header className="header">
+          <Header/>
+        </header>
         <section className="tech"></section>
         <article className="about-us"></article>
         <section className="lab"></section>
