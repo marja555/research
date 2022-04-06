@@ -20,6 +20,10 @@
     width: 150px;
     height: 242px;
   }
+
+  .card-block-lab:hover {
+    margin-top: -20px;
+  }
 }
 
 @media screen and (min-width: 1200px) {

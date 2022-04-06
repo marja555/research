@@ -6,7 +6,6 @@
   padding-bottom: 40px;
   gap: 8px;
   width: max-content;
-  position: relative;
 }
 
 @media screen and (min-width: 500px) {
