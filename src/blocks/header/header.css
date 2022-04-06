@@ -1,0 +1,49 @@
+.header {
+   background-image: url(../../images/Background.png);
+   margin: 0 auto;
+   width: 320px;
+   min-height: 412px;
+   background-repeat: no-repeat;
+   color: white;
+}
+
+.header__title {
+   margin: 0;
+   padding: 30px 48px 0 16px;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 44px;
+   letter-spacing: 0.1px;
+}
+
+.header__title-span {
+   font-weight: 400;
+}
+
+.header__subtitle {
+   margin: 0;
+   padding: 16px;
+   font-size: 14px;
+   line-height: 19px;
+}
+.header__button {
+   cursor: pointer;
+   display: block;
+   margin: 34px 16px 58px;
+   padding: 12px 0 12px;
+   background: #001337;
+   text-align: center;
+   border: 1px solid #ffffff;
+   border-radius: 5px;
+}
+
+.header_link {
+   text-decoration: none;
+   color: white;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 19px;
+}
+
+.header__button:hover {
+}
