@@ -14,7 +14,7 @@ export const Publication = ({ title, authors, image, text, fullLink }) => {
       <SharePopup isOpen={isShareOpen} fullLink={fullLink} />
       <div className="publication__share-wrapper">
         <a className="publication__read-more" href={fullLink}>
-          Читать далее
+          Читать полностью
         </a>
         <button className="publication__share-button" onClick={handleShareClick} />
       </div>
