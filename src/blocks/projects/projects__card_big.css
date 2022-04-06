@@ -1,0 +1,19 @@
+.projects__card_big {
+  background-color: #E0F0FF;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  z-index: 2;
+  background-image: url("../../images/Factory.svg");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 16px;
+  margin: 0;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 26px 1fr 20px;
+  grid-template-columns: 172px 60px;
+  column-gap: 24px;
+  width: 100%;
+}

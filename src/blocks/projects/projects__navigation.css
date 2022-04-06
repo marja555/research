@@ -1,0 +1,38 @@
+.projects__navigation {
+  display: flex;
+  align-items: center;
+  margin: 8px auto 40px;
+  width: 100%;
+  justify-content: space-between;
+  height: 30px;
+}
+
+
+.projects__link {
+  font-style: normal;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+
+.projects__link_active{
+  text-decoration: underline;
+  text-decoration-color: #009FAC;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+.projects__link-button {
+  width: 30px;
+  background-image: url("../../images/Navigation-arrow-left.svg");
+  background-color: transparent;
+  height: 30px;
+  border: none;
+  background-position: center;
+  background-size: cover;
+}
+.projects__link-button_right {
+  background-image: url("../../images/Navigation-arrow-right.svg");
+}

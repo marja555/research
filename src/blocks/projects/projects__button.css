@@ -1,0 +1,29 @@
+.projects-button {
+ width: 20px;
+  height: 20px;
+  background-color: #fff;
+  color: #009FAC;
+  background-image: url("../../images/arrow-right.svg");
+  background-size: 12px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  justify-self: right;
+}
+
+.projects-button_big {
+  width: 20px;
+  height: 20px;
+  background-color: #009FAC;
+  color: #E0F0FF;
+  background-image: url("../../images/arrow-left.svg");
+  background-size: 12px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  justify-self: right;
+  grid-row-start: 3;
+  margin: 0;
+}

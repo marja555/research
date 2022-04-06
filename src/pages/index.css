@@ -30,8 +30,11 @@
 @import url(../blocks/projects/projects__filter-item.css);
 @import url(../blocks/projects/projects-container.css);
 @import url(../blocks/projects/projects__card.css);
+@import url(../blocks/projects/projects__card_big.css);
 @import url(../blocks/projects/projects__logo.css);
 @import url(../blocks/projects/projects__card-text.css);
+@import url(../blocks/projects/projects__button.css);
+@import url(../blocks/projects/projects__navigation.css);
 
 /* education */
 @import url(../blocks/education/education.css);

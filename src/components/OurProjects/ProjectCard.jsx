@@ -2,6 +2,10 @@ import React from "react";
 
 function ProjectsCard (props) {
 
+ function handleClick(){
+    console.log('fknfdlkn')
+  }
+
   return (
     <figure className={props.name}>
       <img
@@ -9,14 +13,7 @@ function ProjectsCard (props) {
           src={`${props.link}`}
         />
       <p className="projects__card-text">Направление включает в себя исследования и разработки технологий МО и КТ.</p>
-      {/* <figcaption className="place__caption">
-          <h2 className="place__title">{props.card.name}</h2>
-          <div className="place__like-container">
-            <button className={cardLikeButtonClassName} type="button" onClick={handleLikeClick}></button>
-            <p className="place__like-counter">{props.card.likes.length}</p>
-          </div>
-        </figcaption>
-        <button className={cardDeleteButtonClassName} type="button" onClick={handleDeleteClick}></button>*/}
+      <button className="projects-button" type="button" onClick={handleClick}></button>
     </figure>
   );
 }
