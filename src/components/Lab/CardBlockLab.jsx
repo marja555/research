@@ -4,8 +4,18 @@ function CardBlockLab(props) {
   const handleClick = () => {
     props.onCardClick();
   }
+  const mediaQuery = window.matchMedia('(min-width: 1440px)');
+  // const differentImagesStyle = {}
+  // if (mediaQuery.matches) {
+  //   differentImagesStyle = {
+  //     backgroundImage: props.card.backImage
+  //   }
+  // }
+  console.log(props.card.backImage)
+
     return (
-      <div className="card-block-lab" onClick={handleClick}>
+      <div className="card-block-lab"
+        onClick={handleClick}>
         <div className="card-block-lab__content">
           <h3 className="card-block-lab__title">{props.card.title}</h3>
           <div className="card-block-lab__icon-circle">

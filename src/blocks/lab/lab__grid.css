@@ -9,7 +9,7 @@
 
 @media screen and (min-width: 768px) {
     .lab__grid {
-        grid-template-columns: 330px 330px;
+        grid-template-columns: auto 330px;
         grid-template-rows: repeat(2, min-content);
         margin-top: 30px;
         row-gap: 20px;
@@ -17,11 +17,20 @@
     }
 }
 
+@media screen and (min-width: 1150px) {
+    .lab__grid {
+      grid-template-columns: 36px auto 264px 264px;
+      justify-items: center;
+      grid-template-rows: auto;
+      column-gap: 12px;
+      max-width: calc(100% - 80px);
+      /* margin-left: calc(auto - 36px);
+      margin-right: auto; */
+    }
+}
+
 @media screen and (min-width: 1440px) {
     .lab__grid {
-      grid-template-columns: repeat(4, min-content);
-      grid-template-rows: auto;
-      width: 1146px;
-      column-gap: 12px;
+      max-width: calc(100% - 294px);
     }
 }

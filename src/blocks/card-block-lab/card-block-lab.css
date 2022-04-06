@@ -4,3 +4,28 @@
   background-color: #fff;
   border-radius: 5px;
 }
+
+.card-block-lab:hover {
+  background-color: rgba(0, 159, 172, 1);
+  color: white;
+}
+
+.card-block-lab:hover .card-block-lab__button {
+  border: none;
+  color: rgba(0, 159, 172, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .card-block-lab {
+    width: 150px;
+    height: 242px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card-block-lab {
+    width: 255px;
+    height: 430px;
+    background-size: cover;
+  }
+}

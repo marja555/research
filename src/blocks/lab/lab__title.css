@@ -7,3 +7,10 @@
   padding-top: 40px;
   margin: 0;
 }
+
+@media screen and (min-width: 1150px) {
+  .lab__title {
+    font-size: 36px;
+    line-height: 1.89;
+  }
+}
