@@ -12,7 +12,7 @@ function Main(props) {
         <section className="projects"></section>
         <section className="education"></section>
         <section className="publications"></section>
-        <section className='ourTeam'>
+        <section className='our-team'>
           <OurTeam />
         </section>
         <section className="team"></section>
