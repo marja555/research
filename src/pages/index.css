@@ -21,6 +21,34 @@
 
 /* lab */
 @import url(../blocks/lab/lab.css);
+@import url(../blocks/lab/lab__grid.css);
+@import url(../blocks/lab/lab__image-man.css);
+@import url(../blocks/lab/lab__image-men.css);
+@import url(../blocks/lab/lab__text.css);
+@import url(../blocks/lab/lab__title.css);
+@import url(../blocks/lab/lab__icon-molecule.css);
+
+/* cards, card */
+@import url(../blocks/cards-block-lab/cards-block-lab.css);
+@import url(../blocks/card-block-lab/card-block-lab.css);
+@import url(../blocks/card-block-lab/card-block-lab__content.css);
+@import url(../blocks/card-block-lab/card-block-lab__button.css);
+@import url(../blocks/card-block-lab/card-block-lab__icon-circle.css);
+@import url(../blocks/card-block-lab/card-block-lab__icon.css);
+@import url(../blocks/card-block-lab/card-block-lab__text.css);
+@import url(../blocks/card-block-lab/card-block-lab__title.css);
+
+/* popup */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/popup__container.css);
+@import url(../blocks/popup/popup__image.css);
+@import url(../blocks/popup/popup__text.css);
+@import url(../blocks/popup/popup__title.css);
+@import url(../blocks/popup/popup__close-btn.css);
+@import url(../blocks/popup/popup__wrapper.css);
+@import url(../blocks/popup/popup__list.css);
+@import url(../blocks/popup/popup_type_open.css);
+@import url(../blocks/popup/popup__overlay.css);
 
 /* projects */
 @import url(../blocks/projects/projects.css);

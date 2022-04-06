@@ -1,0 +1,38 @@
+.lab__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .lab__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.1px;
+  }
+
+  .lab__text:first-of-type {
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .lab__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .lab__text {
+    grid-column: 2/3;
+    min-width: 450px;
+    padding-right: 18px;
+    font-size: 18px;
+    line-height: 1.67;
+  }
+}

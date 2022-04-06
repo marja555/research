@@ -1,0 +1,16 @@
+.lab__image-man {
+  background-image: url(../../images/lab_image_man.jpg);
+  width: 264px;
+  height: 276px;
+  border-radius: 10px;
+  background-size: cover;
+  display: none;
+}
+
+@media screen and (min-width: 1150px) {
+  .lab__image-man {
+      display: block;
+      grid-column: -2/-3;
+      grid-row: 1/3;
+  }
+}

@@ -1,0 +1,23 @@
+.card-block-lab__text {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 0.1px;
+    margin: 16px 0 0;
+}
+
+@media screen and (min-width: 768px) {
+  .card-block-lab__text {
+      margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+    .card-block-lab__text {
+      margin-top: 50px;
+      font-size: 14px;
+      height: 60px;
+    }
+  }

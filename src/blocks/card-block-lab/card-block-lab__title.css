@@ -1,0 +1,25 @@
+.card-block-lab__title {
+  text-align: center;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1.36;
+  margin: 10px 0 0;
+  min-height: 33px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-block-lab__title {
+    font-size: 12px;
+    margin-top: 12px;
+    line-height: 1.67;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card-block-lab__title {
+    margin-top: 30px;
+    font-size: 18px;
+    min-height: 60px;
+  }
+}

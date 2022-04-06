@@ -1,0 +1,13 @@
+.lab__icon-molecule {
+  background-image: url(../../images/lab_molecule.svg);
+  width: 24px;
+  height: 23px;
+  display: none;
+}
+
+@media screen and (min-width: 1150px) {
+  .lab__icon-molecule {
+    display: block;
+    grid-row: 2/3;
+  }
+}
