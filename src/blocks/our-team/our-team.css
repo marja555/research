@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  max-width: 320px;
+  max-width: 767px;
   height: 442px;
   background-color: #E0F0FF;
+  margin: 0 auto;
 }
 
 .our-team__title {
@@ -21,48 +22,6 @@
 .our-team__cards {
   display: flex;
   flex-direction: row;
-}
-
-.our-card {
-  display: flex;
-  flex-direction: column;
-  background: #FFFFFF;
-  box-shadow: 0px 2.38298px 11.9149px rgba(1, 54, 157, 0.15);
-  border-radius: 5px;
-  max-width: 140px;
-  max-height: 256px;
-  margin: 0 auto;
-
-}
-
-.our-card__image {
-  max-width: 120px;
-  max-height: 160px;
-  object-fit: cover;
-  margin: 10px;
-}
-
-.our-card__name {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-  text-align: center;
-  color: #000D26;
-  text-overflow: ellipsis;
   overflow: hidden;
-  white-space: pre-line;
-  margin: 0 auto;
-  max-width: 80px;
-  min-height: 48px;
-}
-
-.our-card__position {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 14px;
-  color: #009FAC;
-  text-align: center;
-  margin: 4px auto 10px;
+  justify-content: space-evenly;
 }

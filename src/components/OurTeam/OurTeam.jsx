@@ -10,13 +10,23 @@ function OurTeam() {
     <div className='our-team__cards'>
       <OurCard
         imageLink={ourTeam2}
-        name='Бухановский Александр Валерьевич'
+        name='Бухановский Александр Александр Валерьевич'
         position='Директор, ДТН'
       />
       <OurCard
         imageLink={ourTeam1}
         name='Бобцов Алексей Алексеевич'
+        position='Директор, ДТН Директор, ДТН Директор, ДТН Директор, ДТН'
+      />
+      <OurCard
+        imageLink={ourTeam1}
+        name='Бобцов Алексей Алексеевич'
         position='Директор, ДТН'
+      />
+      <OurCard
+        imageLink={ourTeam1}
+        name='Бобцов Алексей Алексеевич'
+        position='Директор, ДТН Директор, ДТН Директор, ДТН Директор, ДТН'
       />
     </div>
    </>

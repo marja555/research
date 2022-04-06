@@ -1,11 +1,11 @@
 function OurCard({imageLink, name, position}) {
 return(
-  <div className='our-card'>
-    <img src={imageLink} className='our-card__image' alt={name}/>
-    <h3 className='our-card__name'>
+  <div className='our-team-card'>
+    <img src={imageLink} className='our-team-card__image' alt={name}/>
+    <h3 className='our-team-card__name'>
       {name}
     </h3>
-    <p className='our-card__position'>
+    <p className='our-team-card__position'>
       {position}
     </p>
   </div>
