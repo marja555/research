@@ -31,6 +31,12 @@
 /* publications */
 @import url(../blocks/publications/publications.css);
 
+/* our-team */
+@import url(../blocks/our-team/our-team.css);
+
+/*our-team-card*/
+@import url(../blocks/our-team-card/our-team-card.css);
+
 /* team */
 @import url(../blocks/team/team.css);
 

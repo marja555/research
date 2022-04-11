@@ -1,0 +1,42 @@
+.our-team{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 767px;
+  background-color: #E0F0FF;
+  margin: 0 auto;
+}
+
+.our-team__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000D26;
+  margin: 72px 0 20px 0;
+}
+
+.our-team__cards {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: space-evenly;
+  margin-bottom: 72px;
+}
+
+@media screen and (min-width: 500px) {
+
+  .our-team__title {
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    margin: 110px 0 30px;
+  }
+
+  .our-team__cards {
+    margin-bottom: 113px;
+    justify-content: flex-start;
+  }
+}
