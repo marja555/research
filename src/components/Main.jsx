@@ -1,4 +1,5 @@
 import React from 'react';
+import Partners from './Partners';
 
 function Main(props) {
     return (
@@ -11,6 +12,9 @@ function Main(props) {
         <section className="projects"></section>
         <section className="education"></section>
         <section className="publications"></section>
+        <section className='partners'>
+        <Partners />
+        </section>
         <section className="team"></section>
         <form className="form"></form>
         <footer className="footer"></footer>

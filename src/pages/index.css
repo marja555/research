@@ -34,8 +34,12 @@
 /* team */
 @import url(../blocks/team/team.css);
 
+/*partners*/
+@import url(../blocks/partners/partners.css);
+
 /* form */
 @import url(../blocks/form/form.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);
+
